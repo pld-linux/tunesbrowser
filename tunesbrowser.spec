@@ -1,5 +1,6 @@
+Summary:	Simple music player using the DAAP protocol
+Summary(pl):	Prosty odtwarzacz muzyki u¿ywaj±cy protoko³u DAAP
 Name:		tunesbrowser
-Summary:	simple music player using the DAAP protocol
 Version:	0.3.0
 Release:	0
 License:	BSD
@@ -14,10 +15,17 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 TunesBrowser is a simple music player, capable of playing music found
-on iTunes® shares. TunesBrowser can connect to iTunes applications (as
-of April 29 2004) and is implemented on top of libopendaap.
+on iTunes(R) shares. TunesBrowser can connect to iTunes applications
+(as of April 29 2004) and is implemented on top of libopendaap.
 TunesBrowser was written with the purpose of being a prototype
 front-end for libopendaap.
+
+%description -l pl
+TunesBrowser to prosty odtwarzacz muzyki potrafi±cy odtwarzaæ muzykê z
+udzia³ów iTunes(R). TunesBrowser mo¿e ³±czyæ siê z aplikacjami iTunes
+(stan na 29 kwietnia 2004) i jest zaimplementowany w oparciu o
+libopendaap. TunesBrowser zosta³ napisany jako prototypowy frontend
+dla libopendaap.
 
 %prep
 %setup -q
@@ -39,4 +47,4 @@ rm -fr $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/tunesbrowser
 %{_datadir}/tunesbrowser.glade
-%{_mandir}/man1/*.gz
+%{_mandir}/man1/*.1*
