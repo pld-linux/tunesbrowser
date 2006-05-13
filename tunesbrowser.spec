@@ -45,6 +45,7 @@ rm -fr $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc AUTHORS ChangeLog 
 %attr(755,root,root) %{_bindir}/tunesbrowser
 %{_datadir}/tunesbrowser.glade
 %{_mandir}/man1/*.1*
