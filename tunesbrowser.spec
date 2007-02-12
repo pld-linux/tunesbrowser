@@ -1,5 +1,5 @@
 Summary:	Simple music player using the DAAP protocol
-Summary(pl.UTF-8):   Prosty odtwarzacz muzyki używający protokołu DAAP
+Summary(pl.UTF-8):	Prosty odtwarzacz muzyki używający protokołu DAAP
 Name:		tunesbrowser
 Version:	0.3.0
 Release:	0
