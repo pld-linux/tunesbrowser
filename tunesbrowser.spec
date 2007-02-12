@@ -1,5 +1,5 @@
 Summary:	Simple music player using the DAAP protocol
-Summary(pl):	Prosty odtwarzacz muzyki u¿ywaj±cy protoko³u DAAP
+Summary(pl.UTF-8):   Prosty odtwarzacz muzyki uÅ¼ywajÄ…cy protokoÅ‚u DAAP
 Name:		tunesbrowser
 Version:	0.3.0
 Release:	0
@@ -20,11 +20,11 @@ on iTunes(R) shares. TunesBrowser can connect to iTunes applications
 TunesBrowser was written with the purpose of being a prototype
 front-end for libopendaap.
 
-%description -l pl
-TunesBrowser to prosty odtwarzacz muzyki potrafi±cy odtwarzaæ muzykê z
-udzia³ów iTunes(R). TunesBrowser mo¿e ³±czyæ siê z aplikacjami iTunes
+%description -l pl.UTF-8
+TunesBrowser to prosty odtwarzacz muzyki potrafiÄ…cy odtwarzaÄ‡ muzykÄ™ z
+udziaÅ‚Ã³w iTunes(R). TunesBrowser moÅ¼e Å‚Ä…czyÄ‡ siÄ™ z aplikacjami iTunes
 (stan na 29 kwietnia 2004) i jest zaimplementowany w oparciu o
-libopendaap. TunesBrowser zosta³ napisany jako prototypowy frontend
+libopendaap. TunesBrowser zostaÅ‚ napisany jako prototypowy frontend
 dla libopendaap.
 
 %prep
